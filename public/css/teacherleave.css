@@ -1,0 +1,62 @@
+.leave{
+    height: 720px;
+    width: 680px;
+    border: 3px;
+    background-color: rgb(247, 214, 219);
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border-color: black;
+     box-shadow: 0 5px 15px rgba(234, 87, 185, 0.8);
+}
+h1 {
+  background: linear-gradient(90deg, rgb(201, 18, 201), #ff66b2); 
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(255, 0, 102, 0.3); 
+  text-shadow: 1px 1px 2px #00000033; 
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 0, 102, 0.5);
+}
+label{
+    font-size: 45px;
+    margin-left: 5%;
+}
+#leave-date{
+    height: 60px;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+#leave-reason{
+    height: 250px;
+    width: 80%;
+    margin-left: 5%;
+    font-size: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+button{
+    height: 70px;
+    width: 220px;
+    margin-top: 8%;
+   margin-left: 30%;
+   border-radius: 20px;
+   font-size: 30px;
+    background:linear-gradient(to right,#ff6ec4,#7873f5);
+     color: white;;
+}
+button:hover{
+     transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(216, 101, 162, 0.5);
+}

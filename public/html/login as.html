@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Poppins',sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           overflow: hidden;
+        }
+        div{
+            background-color: rgb(247, 214, 219);
+            backdrop-filter: blur(20px);
+            height: 60%;
+            width: 30%;
+            border-radius: 20px;
+           box-shadow: 0 5px 15px rgba(234, 87, 185, 0.8);
+            text-align: center;
+            transition: transform 0.3ms;
+        }
+        div:hover{
+            transform:scale(1.02);
+        }
+           h1 {
+           background: linear-gradient(90deg, rgb(201, 18, 201), #ff66b2); 
+         color: white;
+         font-family: 'Poppins', sans-serif; 
+         font-size: 36px;
+         text-align: center;
+         padding: 20px 30px;
+         border-radius: 15px;
+         box-shadow: 0 8px 16px rgba(255, 0, 102, 0.3); 
+        text-shadow: 1px 1px 2px #00000033; 
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+       h1:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(255, 0, 102, 0.5);
+       }
+            
+            button{
+                display: block;
+                width: 320px;
+                height: 80px;
+                margin-top: 10%;
+                margin: 15px auto;
+                padding-top: 12px;
+                padding-left: 29px;
+                font-size: 32px;
+                border: none;
+                border-radius: 40px;
+                background:linear-gradient(to right,#ed73bc,#7874ec);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                box-shadow: 0 4px 15px rgba(255,110,196,0.6);
+                transition: all 0.3s ease;
+            }
+            .button:hover{
+                background:linear-gradient(to right #7873f5,#ff6ec4);
+                transform: scale(1.05);
+                box-shadow: 0 6px 20px rgba(120,115,245,0.7);
+            }
+           #ig1,#ig2{
+            height: 50px;
+            width: 50px;
+           }
+        
+    </style>
+</head>
+<body>
+    <div class="login">
+       
+    <h1 class="heading">Login As!</h1>
+    <button id="btn1" type="submit"> <img src="https://i.pinimg.com/736x/6a/44/f0/6a44f0e35b10e6ed063eeebf7ed844f9.jpg" id="ig1"> &nbsp;Admin </button><br><br>
+     <button id="btn2" type="submit"><img src="data:image/png;base64,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" id="ig2"> &nbsp;Teacher</button>
+     </div>
+     <script>
+        let admin=document.getElementById("btn1");
+        let Teacher=document.getElementById("btn2");
+
+        admin.addEventListener("click",function(){
+        window.location.href="/html/Adminlogin.html";
+        });
+
+        Teacher.addEventListener("click",function(){
+            window.location.href="/html/Teachersignup.html";
+        });
+
+        
+     </script>
+</body>
+</html>

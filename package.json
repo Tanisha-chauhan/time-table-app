@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "��#\u0000 \u0000j\u0000a\u0000g\u0000b\u0000i\u0000r\u0000\r\u0000 \u0000#\u0000 \u0000p\u00001\u0000\r\u0000 \u0000#\u0000 \u0000p\u00001\u0000\r\u0000 \u0000#\u0000 \u0000p\u00001\u0000\r\u0000 \u0000",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10"
+  }
+}

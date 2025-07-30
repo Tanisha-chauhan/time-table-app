@@ -1,0 +1,202 @@
+
+ .top{
+     height: 65px;
+    width: 100%;
+    border: 3px;
+    background-color: rgb(249, 247, 249);
+    box-shadow: 0 5px 15px ;
+    border-color: black; 
+  /* background: linear-gradient(90deg, rgb(201, 18, 201), #ff66b2);  
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(255, 0, 102, 0.3); 
+  text-shadow: 1px 1px 2px #00000033; 
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;     */
+}
+.datetime-bar {
+    height: 12px;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(249, 247, 249);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 15px;
+  color: #333;
+}
+.datetime-left{
+    margin-left: 78%;
+}
+.datetime-right{
+    display: flex;
+    margin-top: 4px;
+    justify-content: flex-end;
+    margin-right: 1%;
+    gap: 5px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#img{
+    height: 50px;
+    width: 25px;
+}
+.datetime-left, .datetime-right {
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.top1{
+    height: 65px;
+    width: 60%;
+    border: 3px;
+    background-color: rgb(249, 247, 249);
+    box-shadow: 0 5px 15px ;
+    border-color: black;
+    font-size: 30px;
+}
+#log{
+    display:flex;
+    gap: 42%;
+}
+#log p{
+    margin-left: 40%;
+}
+#logbt{
+    background-color: darkmagenta;
+    height: 32px;
+    width: 75px;
+    margin-top: 8%;
+    color: white;
+    border-radius: 27%;
+}
+.logs{
+    display: flex;
+    gap: 40%; 
+}
+.logs p{
+    margin-left: 40%;
+}
+#logbts{
+     background-color: darkmagenta;
+    height: 32px;
+    width: 75px;
+    margin-top: 8%;
+    color: white;
+    border-radius: 27%;
+}
+.top h1{
+    font-size: 38px;
+ padding-top: 1px;
+    margin-left: 7px;
+    color: darkmagenta;
+}
+.left{
+     height: 850px;
+    width: 20%;
+    border: 3px;
+    margin-top: 1px;
+    background-color: rgb(253, 249, 248);
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: black;
+    margin-top: 8%;
+    font-size: 25px;
+    text-decoration: none;
+   
+}
+p{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+button{
+    height: 75px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: white;
+}
+#dd{
+    height: 30px;
+    width: 30px;
+    gap: 5px;
+}
+#bb{
+    height: 30px;
+    width: 30px;
+    gap: 5px;
+}
+.btn3{
+     height: 75px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: rgb(132, 132, 248);
+    color: white;
+    margin-top: 30%;
+}
+.right{
+     height: 850px;
+    width: 100%;
+    border: 3px;
+    margin-top: 1px;
+    background-color: rgb(250, 240, 242);
+}
+.left-right{
+    margin-top: 2px;
+    height: 100%;
+    width: 100%;
+    margin-left: 6px;
+    display: flex;
+    gap: 2px;
+}
+p{
+    text-align: center;
+}
+.two{
+    display: flex;
+    gap: 35%;
+}
+select{
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+    background-color: darkmagenta;
+    color: white;
+    margin-left: 25px;
+}
+
+#btn4{
+    height: 40px;
+    width: 30%;
+    background-color: darkmagenta;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    height: 600px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-decoration: none;
+   
+}
+td{
+    border: 1px solid black;
+    padding: 20px;
+    text-decoration: none;
+}
+ 
+ 
+ 

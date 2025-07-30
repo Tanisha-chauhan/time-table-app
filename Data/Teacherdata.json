@@ -1,0 +1,97 @@
+[
+  {
+    "UserName": "Taani",
+    "Email": "Taani@gmail.com",
+    "password": "123",
+    "id": "Taani@gmail.com",
+    "lectures": [
+      {
+        "id": "Taani@gmail.com",
+        "Lecture": "Lecture 2",
+        "Subject": "maths",
+        "Start": "10:00 AM",
+        "End": "11:00 AM",
+        "Room": "123",
+        "Day": "Monday"
+      },
+      {
+        "id": "Taani@gmail.com",
+        "Lecture": "Lecture 6",
+        "Subject": "english",
+        "Start": "1:00 PM",
+        "End": "2:00 PM",
+        "Room": "24",
+        "Day": "Friday"
+      }
+    ]
+  },
+  {
+    "UserName": "Abhay",
+    "Email": "Abhay@gmail.com",
+    "password": "1234",
+    "id": "Abhay@gmail.com",
+    "lectures": [
+      {
+        "id": "Abhay@gmail.com",
+        "Lecture": "Lecture 5",
+        "Subject": "Science",
+        "Start": "2:00 PM",
+        "End": "3:00 PM",
+        "Room": "23",
+        "Day": "Monday"
+      },
+      {
+        "id": "Abhay@gmail.com",
+        "Lecture": "Lecture 1",
+        "Subject": "english",
+        "Start": "9:00 AM",
+        "End": "10:00 AM",
+        "Room": "125",
+        "Day": "Monday"
+      }
+    ]
+  },
+  {
+    "UserName": "Gauri",
+    "Email": "Gauri@gmail.com",
+    "password": "0099",
+    "id": "Gauri@gmail.com",
+    "lectures": [
+      {
+        "id": "Gauri@gmail.com",
+        "Lecture": "Lecture 4",
+        "Subject": "Science",
+        "Start": "12:00 PM",
+        "End": "1:00 PM",
+        "Room": "126",
+        "Day": "Thursday"
+      }
+    ]
+  },
+  {
+    "UserName": "Vinay",
+    "Email": "Vinay@gmail.com",
+    "password": "0011",
+    "id": "Vinay@gmail.com",
+    "lectures": [
+      {
+        "id": "Vinay@gmail.com",
+        "Lecture": "Lecture 3",
+        "Subject": "Hindi",
+        "Start": "11:00 AM",
+        "End": "12:00 PM",
+        "Room": "127",
+        "Day": "Wednesday"
+      },
+      {
+        "id": "Vinay@gmail.com",
+        "Lecture": "Lecture 7",
+        "Subject": "maths",
+        "Start": "3:00 PM",
+        "End": "4:00 PM",
+        "Room": "128",
+        "Day": "Saturday"
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+div{
+    height: 700px;
+    width: 650px;
+    border: 3px;
+    background-color:rgb(247, 214, 219);
+    margin-left: 28%;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0 5px 15px rgba(234, 87, 185, 0.8);
+    
+}
+h1 {
+  background: linear-gradient(90deg, rgb(201, 18, 201), #ff66b2); 
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(255, 0, 102, 0.3); 
+  text-shadow: 1px 1px 2px #00000033; 
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 0, 102, 0.5);
+}
+
+label{
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+select{
+    height: 40px;
+    width: 550px;
+    margin-left: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+#Start,#End{
+width:260px;
+}
+.div1{
+    display: flex;
+}
+.div4{
+    display: flex;
+    margin-left: 60%;
+    gap: 5%;
+    padding-top: 3%;
+}
+button{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;    
+}
+.btn2{
+    background-color: rgb(201, 18, 201);
+    color: white;
+    margin-right: 5%;
+}
+input{
+    height: 40px;
+    width: 550px;
+    margin-left: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+#Save{
+     background-color: rgb(201, 18, 201);
+    color: white;
+    border-radius: 25px;
+}
+#Save:hover{
+    transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 0, 102, 0.5);
+}
+.Cancel{
+    border-radius: 25px;
+}

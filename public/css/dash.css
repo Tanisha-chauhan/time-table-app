@@ -1,0 +1,154 @@
+.top{
+    height: 65px;
+    width: 100%;
+    border: 3px;
+    background-color: rgb(249, 247, 249);
+    box-shadow: 0 5px 15px ;
+    border-color: black;
+    
+}
+.datetime-bar {
+    height: 12px;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(249, 247, 249);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 15px;
+  color: #333;
+}
+.datetime-left{
+    margin-left: 80%;
+}
+.datetime-right{
+    display: flex;
+    margin-top: 4px;
+    justify-content: flex-end;
+    margin-right: 1%;
+    gap: 5px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#img{
+    height: 50px;
+    width: 25px;
+}
+.datetime-left, .datetime-right {
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+.top h1{
+    font-size: 38px;
+ padding-top: 1px;
+    margin-left: 7px;
+    color: darkmagenta;
+}
+.left{
+     height: 850px;
+    width: 20%;
+    border: 3px;
+    margin-top: 1px;
+    background-color: rgb(253, 249, 248);
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: black;
+    margin-top: 8%;
+    font-size: 25px;
+    text-decoration: none;
+   
+}
+p{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+button{
+    height: 75px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: white;
+}
+#dd{
+    height: 30px;
+    width: 30px;
+    gap: 5px;
+}
+#bb{
+    height: 30px;
+    width: 30px;
+    gap: 5px;
+}
+.btn3{
+     height: 75px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: rgb(132, 132, 248);
+    color: white;
+    margin-top: 30%;
+}
+.right{
+     height: 850px;
+    width: 100%;
+    border: 3px;
+    margin-top: 1px;
+    background-color:rgb(243, 240, 240);
+}
+.left-right{
+    margin-top: 2px;
+    height: 100%;
+    width: 100%;
+    margin-left: 6px;
+    display: flex;
+    gap: 2px;
+}
+p{
+    text-align: center;
+}
+.two{
+    display: flex;
+   gap: 65px;
+}
+.top1{
+   height: 85px;
+   width: 25%;
+   margin-left: 35px;
+    background-color: white;
+    display: flex;             
+    align-items: center;        
+    gap: 15px;                 
+    padding: 10px; 
+}
+
+ #a,#b,#c{                                                             /*teacherdashboard css*/                                     
+    height: 98%;
+    width: 22%;
+    padding-top: 0%;
+}
+.top{
+    display: flex;
+    font-size: 10px;
+}
+.back{
+    margin-top: 1%;
+    height: 130px;
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 27px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    padding-left: 2%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+ }
+input{
+    height: 45px;
+    width:94% ;
+} 
